@@ -1,0 +1,34 @@
+<table style="width:100%">
+  <thead style="text-align: left">
+    <tr>
+      <th>项目标识</th>
+      <th>项目名称</th>
+      <th>县市代码</th>
+      <th>指标类型</th>
+      <th>申请单位</th>
+      <th>申请日期</th>
+      <th>项目编号</th>
+      <th>项目总面积</th>
+      <th>农用地面积</th>
+      <th>耕地面积</th>
+      <th>推送状态</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let ysjbxx of ysjbxxes">
+      <td>{{ysjbxx.xmguid}}</td>
+      <td>{{ysjbxx.xmmc}}</td>
+      <td>{{ysjbxx.xsdm}}</td>
+      <td>{{ysjbxx.zblx}}</td>
+      <td>{{ysjbxx.sqdw}}</td>
+      <td>{{ysjbxx.sqrq}}</td>
+      <td>{{ysjbxx.xmbh}}</td>
+      <td>{{ysjbxx.xmzmj}}</td>
+      <td>{{ysjbxx.nydmj}}</td>
+      <td>{{ysjbxx.gdmj}}</td>
+      <td>{{ysjbxx.bjkzt}}</td>
+    </tr>
+  </tbody>
+  <tfoot>
+  </tfoot>
+</table>
